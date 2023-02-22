@@ -181,6 +181,7 @@ body {
 @media (min-width: 1200px) {
   body {
     padding: 0rem 13rem;
+    max-width: 1440px;
   }
 
   .top, .bottom {
@@ -201,5 +202,12 @@ body {
 
   .main-left .top, .grid-items {
     margin-bottom: 0.8rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  html {
+    display: grid;
+    place-content: center;
   }
 }
